@@ -1,5 +1,4 @@
 #!/bin/sh
-sleep 2
 export DISPLAY=:0
 xset s off
 xset -dpms

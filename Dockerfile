@@ -3,8 +3,9 @@ RUN apk add xorg-server bash libdrm xf86-input-libinput mesa-dri-gallium mesa-eg
 RUN apk add xinit xset xrandr xeyes
 RUN apk add freedoom
 RUN apk add chocolate-doom --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/
+RUN mkdir -p /run/udev
 COPY start.sh /
-#COPY xinitrc /root/.xinitrc
+COPY xinitrc /root/.xinitrc
 
 COPY xorg.conf /etc/X11/xorg.conf
 ENTRYPOINT ["/start.sh"]
