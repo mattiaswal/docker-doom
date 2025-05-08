@@ -2,7 +2,7 @@
 ## Infix
 Intended to use in [Infix](https://github.com/kernelkit/infix) as
 graphical demo use the following config to run on imx8mp-evk:
-`
+<pre>
   "infix-containers:containers": {
     "container": [
       {
@@ -32,7 +32,7 @@ graphical demo use the following config to run on imx8mp-evk:
       }
     ]
   },
-`
+</pre>
 Add a mouse and keyboard and start playing.
 
 ## Building
