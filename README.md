@@ -1,7 +1,7 @@
 # Docker container to run doom on headless embedded systems
 ## Infix
 Intended to use in [Infix](https://github.com/kernelkit/infix) as
-graphical demo use the following config to run on imx8mp-evk:
+graphical demo use the following config to run, tested on imx8mp-evk:
 <pre>
   "infix-containers:containers": {
     "container": [
